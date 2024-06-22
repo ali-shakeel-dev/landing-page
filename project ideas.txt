@@ -1,9 +1,0 @@
-1. Productivity App
--Pomodoro Timer
--Focus Mode
--Focus Music Playing
--Tasks Management
-
-2. Competitors Content Analysis Tool
-
-3. Chrome Extension
