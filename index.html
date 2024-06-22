@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Css/style.css">
+  <link rel="shortcut icon" href="./Assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Transform Your Sales Performance</title>
+</head>
+
+<body>
+  <div class="bg-black text-white">
+
+    <i class='bx bx-menu-alt-left' id="hamBurger"></i>
+    <header class="body-font bg-black z-10" id="headerMobile">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <div class="flex items-center space-x-2 logoDiv">
+          <img src="./Assets/logo.png" alt="" width="30px">
+          <h1 class="text-xl font-bold">SalesLens</h1>
+        </div>
+        <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+          <a href="#Home" class="mr-5 hover:text-white">Home</a>
+          <a href="#Integrates" class="mr-5 hover:text-white">Integrates</a>
+          <a href="#Testimonial" class="mr-5 hover:text-white">Testimonial</a>
+          <a href="#Blogs" class="mr-5 hover:text-white">Blogs</a>
+          <a href="#Pricing" class="mr-5 hover:text-white">Pricing</a>
+        </nav>
+        <div class="flex items-center space-x-4 btnDiv">
+          <button
+            class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2">
+            EN
+          </button>
+          <button
+            class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 text-black font-bold bg-lime-400 border-0 py-2 px-8 focus:outline-none hover:bg-lime-500 rounded text-lg">
+            Sign In
+          </button>
+          <button
+            class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2">
+            Sign Up
+          </button>
+        </div>
+      </div>
+      <hr class="opacity-30">
+    </header>
+
+    <section class="container m-auto text-center max-[445px]:px-2 pt-20" id="Home">
+      <h2 class="text-6xl max-[550px]:text-4xl font-bold">Transform Your Sales Performance</h2>
+      <p class="mt-4 text-lg">
+        Unlock the power of your sales data with SalesLens, the leading Sales Analytics Tool designed to supercharge
+        your business sales performance.
+      </p>
+
+      <div
+        class="flex lg:w-2/3 w-full sm:flex-row flex-row mx-auto px-8 sm:px-0 pt-4 items-end sm:space-x-4 sm:space-y-0 space-y-4">
+        <div class="relative sm:mb-0 flex-grow px-3">
+          <input type="email" id="email" name="email"
+            class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-lime-400 focus:ring-2 focus:ring-lime-600 focus:bg-transparent text-base outline-none text-gray-100 px-3 py-1 leading-8 transition-colors duration-200 ease-in-out max-[445px]:py-0"
+            placeholder="Enter Email">
+        </div>
+        <button class="text-black max-[445px]:text-sm max-[445px]:px-4 whitespace-nowrap bg-lime-400 border-0 py-2 px-8 focus:outline-none hover:bg-lime-500
+           rounded text-lg">Try for free</button>
+      </div>
+      <div class="flex justify-center mt-8 space-x-8 z-10">
+        <div class="text-center">
+          <h3 class="text-3xl font-bold">200K+</h3>
+          <p class="text-sm">Active Users</p>
+        </div>
+        <div class="text-center">
+          <h3 class="text-3xl font-bold">100+</h3>
+          <p class="text-sm">Total Integrations</p>
+        </div>
+        <div class="text-center">
+          <h3 class="text-3xl font-bold">4.8</h3>
+          <p class="text-sm">User Ratings</p>
+        </div>
+      </div>
+      <div class="container mx-auto">
+        <div class="flex justify-center">
+          <img src="./Assets/Screenshot-Cutout.png" alt="Dashboard Screenshot" class="container rounded-lg shadow-lg"
+            style="object-fit: cover;" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 1 -->
+    <section class=" flex items-center justify-center bg-white py-10">
+      <div class="rounded-lg flex flex-col md:flex-row w-4/5 h-1/2 container mx-auto py-10">
+        <!-- Left side div with image -->
+        <div class="w-full md:w-1/2 flex items-center justify-start max-[768px]:justify-center">
+          <img src="./Assets/Screenshot.png" alt="Dummy Image" class="object-cover w-4/5">
+        </div>
+        <!-- Right side div with h2 and paragraph -->
+        <div
+          class="w-full md:w-1/2 flex flex-col justify-center p-6 lg:text-left md: text-left max-[768px]:text-center">
+          <h2 class="text-2xl md:text-4xl font-bold mb-4 text-black">Sales Strategy with Data-Driven Insights</h2>
+          <p class="text-base md:text-lg text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation.</p>
+          <ul role="list" class="marker:text-lime-500 list-disc pl-5 space-y-2 pt-5 text-gray-500 max-[768px]:hidden">
+            <li>5 cups chopped Porcini mushrooms</li>
+            <li>1/2 cup of olive oil</li>
+            <li>3lb of celery</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="flex items-center justify-center bg-white py-10">
+      <div
+        class="rounded-lg flex flex-col md:flex-row w-4/5 h-1/2 max-[768px]:flex-col-reverse container mx-auto py-10">
+        <!-- Right side div with h2 and paragraph -->
+        <div
+          class="w-full md:w-1/2 flex flex-col justify-center items-center p-6 lg:text-left md: text-left max-[768px]:text-center">
+          <h2 class="text-2xl md:text-4xl font-bold mb-4 text-black">Advance Sales Analytics</h2>
+          <p class="text-base md:text-lg text-gray-700">Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation.</p>
+          <button
+            class=" inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground px-8 mt-4 py-2 text-black font-bold bg-lime-400 border-0 focus:outline-none hover:bg-lime-500 rounded text-lg">
+            Try for free
+          </button>
+        </div>
+        <!-- Left side div with image -->
+        <div class="w-full md:w-1/2 flex items-center justify-end max-[768px]:justify-center">
+          <img src="./Assets/Screenshot.png" alt="Dummy Image" class="object-cover w-4/5">
+        </div>
+      </div>
+    </section>
+
+    <!-- Steps Section -->
+    <!-- <section class="text-gray-400 bg-dark body-font" id="stepSection">
+      <div class="container mx-auto flex flex-wrap">
+        <div class="flex flex-wrap w-full">
+          <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
+            <div class="flex relative pb-12">
+              <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+              </div>
+              <div
+                class="flex-shrink-0 w-10 h-10 rounded-full bg-lime-400 inline-flex items-center justify-center text-white relative z-10">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <div class="flex-grow pl-4">
+                <h2 class="font-medium title-font text-sm text-white mb-1 tracking-wider">STEP 1</h2>
+                <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke
+                  try-hard cliche palo santo offal.</p>
+              </div>
+            </div>
+            <div class="flex relative pb-12">
+              <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+              </div>
+              <div
+                class="flex-shrink-0 w-10 h-10 rounded-full bg-lime-400 inline-flex items-center justify-center text-white relative z-10">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                </svg>
+              </div>
+              <div class="flex-grow pl-4">
+                <h2 class="font-medium title-font text-sm text-white mb-1 tracking-wider">STEP 2</h2>
+                <p class="leading-relaxed">Vice migas literally kitsch +1 pok pok. Truffaut hot chicken slow-carb health
+                  goth, vape typewriter.</p>
+              </div>
+            </div>
+            <div class="flex relative pb-12">
+              <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+              </div>
+              <div
+                class="flex-shrink-0 w-10 h-10 rounded-full bg-lime-400 inline-flex items-center justify-center text-white relative z-10">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-5 h-5" viewBox="0 0 24 24">
+                  <circle cx="12" cy="5" r="3"></circle>
+                  <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+                </svg>
+              </div>
+              <div class="flex-grow pl-4">
+                <h2 class="font-medium title-font text-sm text-white mb-1 tracking-wider">STEP 3</h2>
+                <p class="leading-relaxed">Coloring book nar whal glossier master cleanse umami. Salvia +1 master
+                  cleanse blog taiyaki.</p>
+              </div>
+            </div>
+            <div class="flex relative">
+              <div
+                class="flex-shrink-0 w-10 h-10 rounded-full bg-lime-400 inline-flex items-center justify-center text-white relative z-10">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                  <path d="M22 4L12 14.01l-3-3"></path>
+                </svg>
+              </div>
+              <div class="flex-grow pl-4">
+                <h2 class="font-medium title-font text-sm text-white mb-1 tracking-wider">FINISH</h2>
+                <p class="leading-relaxed">Pitchfork ugh tattooed scenester echo park gastropub whatever cold-pressed
+                  retro.</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 flex items-center justify-center">
+            <img class="w-4/5 object-cover" src="./Screenshot.png" alt="step">
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Integration Section -->
+    <section class="py-10 bg-gray-100 text-black" id="Integrates">
+      <div class="container mx-auto text-center w-4/5 h-1/2">
+        <h2 class="text-2xl md:text-4xl font-bold mb-4 text-black">Integrate with 100+ Online Tools &amp; Software</h2>
+        <p class="mt-4 text-lg">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod nisl eget mi malesuada, a facilisis
+          quam aliquet.
+        </p>
+        <div class="flex justify-center mt-8 space-x-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8">
+            <path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"></path>
+            <path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"></path>
+            <path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"></path>
+            <path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"></path>
+            <path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8">
+            <circle cx="12" cy="12" r="10"></circle>
+            <path d="M19.13 5.09C15.22 9.14 10 10.44 2.25 10.94"></path>
+            <path d="M21.75 12.84c-6.62-1.41-12.14 1-16.38 6.32"></path>
+            <path d="M8.56 2.75c4.37 6 6 9.42 8 17.72"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8">
+            <rect width="3" height="8" x="13" y="2" rx="1.5"></rect>
+            <path d="M19 8.5V10h1.5A1.5 1.5 0 1 0 19 8.5"></path>
+            <rect width="3" height="8" x="8" y="14" rx="1.5"></rect>
+            <path d="M5 15.5V14H3.5A1.5 1.5 0 1 0 5 15.5"></path>
+            <rect width="8" height="3" x="14" y="13" rx="1.5"></rect>
+            <path d="M15.5 19H14v1.5a1.5 1.5 0 1 0 1.5-1.5"></path>
+            <rect width="8" height="3" x="2" y="8" rx="1.5"></rect>
+            <path d="M8.5 5H10V3.5A1.5 1.5 0 1 0 8.5 5"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8">
+            <circle cx="12" cy="12" r="10"></circle>
+            <circle cx="12" cy="12" r="4"></circle>
+            <line x1="21.17" x2="12" y1="8" y2="8"></line>
+            <line x1="3.95" x2="8.54" y1="6.06" y2="14"></line>
+            <line x1="10.88" x2="15.46" y1="21.94" y2="14"></line>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8">
+            <circle cx="12" cy="10" r="8"></circle>
+            <circle cx="12" cy="10" r="3"></circle>
+            <path d="M7 22h10"></path>
+            <path d="M12 22v-4"></path>
+          </svg>
+        </div>
+        <button
+          class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 mt-6">
+          All Integrations
+        </button>
+      </div>
+    </section>
+    <hr class="opacity-20">
+
+    <!-- Testimonial Section -->
+    <section class="text-gray-400 bg-dark body-font" id="Testimonial">
+      <div class="container px-5 py-10 mx-auto ">
+        <h2 class="sm:text-4xl text-3xl font-medium title-font text-center mb-2 py-4 text-white">Testimonials
+        </h2>
+        <div class="flex flex-wrap -m-4">
+          <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+            <div class="h-full text-center">
+              <img alt="testimonial"
+                class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
+                src="https://images.pexels.com/photos/21838369/pexels-photo-21838369/free-photo-of-beautiful-indian-girl-in-ethnic-wear-photoshoot-in-jaipur.jpeg?auto=compress&cs=tinysrgb&w=600">
+              <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki
+                taxidermy
+                90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar
+                cronut adaptogen squid fanny pack vaporware.</p>
+              <span class="inline-block h-1 w-10 rounded bg-lime-400 mt-6 mb-4"></span>
+              <h2 class="text-white font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
+              <p class="text-gray-500">Senior Product Designer</p>
+            </div>
+          </div>
+          <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+            <div class="h-full text-center">
+              <img alt="testimonial"
+                class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
+                src="https://images.pexels.com/photos/15664597/pexels-photo-15664597/free-photo-of-portrait-of-man.jpeg?auto=compress&cs=tinysrgb&w=600">
+              <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki
+                taxidermy
+                90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar
+                cronut adaptogen squid fanny pack vaporware.</p>
+              <span class="inline-block h-1 w-10 rounded bg-lime-400 mt-6 mb-4"></span>
+              <h2 class="text-white font-medium title-font tracking-wider text-sm">ALPER KAMU</h2>
+              <p class="text-gray-500">UI Develeoper</p>
+            </div>
+          </div>
+          <div class="lg:w-1/3 lg:mb-0 p-4">
+            <div class="h-full text-center">
+              <img alt="testimonial"
+                class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
+                src="https://images.pexels.com/photos/11506216/pexels-photo-11506216.jpeg?auto=compress&cs=tinysrgb&w=600">
+              <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki
+                taxidermy
+                90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar
+                cronut adaptogen squid fanny pack vaporware.</p>
+              <span class="inline-block h-1 w-10 rounded bg-lime-400 mt-6 mb-4"></span>
+              <h2 class="text-white font-medium title-font tracking-wider text-sm">HENRY LETHAM</h2>
+              <p class="text-gray-500">CTO</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="opacity-20">
+
+    <!-- Blog Section -->
+    <section class="text-gray-400 bg-dark body-font" id="Blogs">
+      <div class="container px-5 py-10 mx-auto">
+        <h2 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white py-3 text-center">Latest Blogs</h2>
+        <div class="flex flex-wrap -m-4">
+          <div class="p-4 lg:w-1/3">
+            <div
+              class="hover:shadow-[0_0_0_1px_rgba(299,299,299,0.4)] h-full bg-gray-800 bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
+              <h1 class="title-font sm:text-2xl text-xl font-medium text-white mb-3">Raclette Blueberry Nextious Level
+              </h1>
+              <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                microdosing tousled waistcoat.</p>
+              <a class="text-lime-400 inline-flex items-center">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                <span
+                  class="text-gray-500 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-700 border-opacity-50">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-500 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 lg:w-1/3">
+            <div
+              class="hover:shadow-[0_0_0_1px_rgba(299,299,299,0.4)] h-full bg-gray-800 bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
+              <h1 class="title-font sm:text-2xl text-xl font-medium text-white mb-3">Raclette Blueberry Nextious Level
+              </h1>
+              <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                microdosing tousled waistcoat.</p>
+              <a class="text-lime-400 inline-flex items-center">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                <span
+                  class="text-gray-500 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-700 border-opacity-50">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-500 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 lg:w-1/3">
+            <div
+              class="hover:shadow-[0_0_0_1px_rgba(299,299,299,0.4)] h-full bg-gray-800 bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
+              <h1 class="title-font sm:text-2xl text-xl font-medium text-white mb-3">Raclette Blueberry Nextious Level
+              </h1>
+              <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                microdosing tousled waistcoat.</p>
+              <a class="text-lime-400 inline-flex items-center">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                <span
+                  class="text-gray-500 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-700 border-opacity-50">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-500 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 lg:w-1/3">
+            <div
+              class="hover:shadow-[0_0_0_1px_rgba(299,299,299,0.4)] h-full bg-gray-800 bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
+              <h1 class="title-font sm:text-2xl text-xl font-medium text-white mb-3">Raclette Blueberry Nextious Level
+              </h1>
+              <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                microdosing tousled waistcoat.</p>
+              <a class="text-lime-400 inline-flex items-center">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                <span
+                  class="text-gray-500 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-700 border-opacity-50">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-500 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 lg:w-1/3">
+            <div
+              class="hover:shadow-[0_0_0_1px_rgba(299,299,299,0.4)] h-full bg-gray-800 bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
+              <h1 class="title-font sm:text-2xl text-xl font-medium text-white mb-3">Ennui Snackwave Thundercats</h1>
+              <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                microdosing tousled waistcoat.</p>
+              <a class="text-lime-400 inline-flex items-center">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                <span
+                  class="text-gray-500 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-700 border-opacity-50">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-500 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 lg:w-1/3">
+            <div
+              class="hover:shadow-[0_0_0_1px_rgba(299,299,299,0.4)] h-full bg-gray-800 bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
+              <h1 class="title-font sm:text-2xl text-xl font-medium text-white mb-3">Selvage Poke Waistcoat Godard</h1>
+              <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                microdosing tousled waistcoat.</p>
+              <a class="text-lime-400 inline-flex items-center">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                <span
+                  class="text-gray-500 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-700 border-opacity-50">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-500 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="opacity-20">
+
+    <!-- Pricing Section -->
+    <section class="text-white bg-dark body-font overflow-hidden" id="Pricing">
+      <div class="container px-5 py-10 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+          <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">Pricing</h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn
+            asymmetrical.</p>
+          <div class="flex mx-auto border-2 border-lime-400 rounded overflow-hidden mt-6">
+            <button class="py-1 px-4 bg-lime-400 text-white focus:outline-none">Monthly</button>
+            <button class="py-1 px-4 text-gray-300 focus:outline-none">Annually</button>
+          </div>
+        </div>
+        <div class="flex flex-wrap -m-4">
+          <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+            <div
+              class="shadow-[0_0_0_1px_rgba(299,299,299,0.4)] hover:shadow-[0_0_0_1px_rgba(299,299,299,0.7)] h-full p-6 rounded-lg flex flex-col relative overflow-hidden">
+              <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">START</h2>
+              <h1 class="text-5xl text-white pb-4 mb-4 border-b border-gray-800 leading-none">Free</h1>
+              <p class="flex items-center text-gray-400 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-400 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Tumeric plaid portland
+              </p>
+              <p class="flex items-center text-gray-400 mb-6">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Mixtape chillwave tumeric
+              </p>
+              <button
+                class="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">Select
+                Plan
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+              <p class="text-xs text-gray-400 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+            </div>
+          </div>
+          <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+            <div class="h-full p-6 rounded-lg border-2 border-lime-400 flex flex-col relative overflow-hidden">
+              <span
+                class="bg-lime-400 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
+              <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">PRO</h2>
+              <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
+                <span>$38</span>
+                <span class="text-lg ml-1 font-normal text-gray-400">/mo</span>
+              </h1>
+              <p class="flex items-center text-gray-400 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-400 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Tumeric plaid portland
+              </p>
+              <p class="flex items-center text-gray-400 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Hexagon neutra unicorn
+              </p>
+              <p class="flex items-center text-gray-400 mb-6">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Mixtape chillwave tumeric
+              </p>
+              <button
+                class="flex items-center mt-auto text-white bg-lime-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-lime-500 rounded">Select
+                Plan
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+              <p class="text-xs text-gray-400 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+            </div>
+          </div>
+          <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+            <div
+              class="h-full p-6 rounded-lg shadow-[0_0_0_1px_rgba(299,299,299,0.4)] hover:shadow-[0_0_0_1px_rgba(299,299,299,0.7)] flex flex-col relative overflow-hidden">
+              <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">BUSINESS</h2>
+              <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
+                <span>$56</span>
+                <span class="text-lg ml-1 font-normal text-gray-400">/mo</span>
+              </h1>
+              <p class="flex items-center text-gray-400 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-400 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Tumeric plaid portland
+              </p>
+              <p class="flex items-center text-gray-400 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Hexagon neutra unicorn
+              </p>
+              <p class="flex items-center text-gray-400 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-400 mb-6">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Mixtape chillwave tumeric
+              </p>
+              <button
+                class="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">Select
+                Plan
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+              <p class="text-xs text-gray-400 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+            </div>
+          </div>
+          <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+            <div
+              class="h-full p-6 rounded-lg shadow-[0_0_0_1px_rgba(299,299,299,0.4)] hover:shadow-[0_0_0_1px_rgba(299,299,299,0.7)] flex flex-col relative overflow-hidden">
+              <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">SPECIAL</h2>
+              <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
+                <span>$72</span>
+                <span class="text-lg ml-1 font-normal text-gray-400">/mo</span>
+              </h1>
+              <p class="flex items-center text-gray-400 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-400 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Tumeric plaid portland
+              </p>
+              <p class="flex items-center text-gray-400 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Hexagon neutra unicorn
+              </p>
+              <p class="flex items-center text-gray-400 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-400 mb-6">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Mixtape chillwave tumeric
+              </p>
+              <button
+                class="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">Select
+                Plan
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+              <p class="text-xs text-gray-400 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="opacity-20">
+
+    <!-- Last CTA Section -->
+    <section class="text-gray-400 bg-dark body-font">
+      <div class="container px-5 py-10 mx-auto">
+        <div class="flex flex-col text-center w-full mb-12">
+          <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white py-3 text-center">Master Cleanse Reliac
+            Heirloom</h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn
+            asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun
+            deep.</p>
+        </div>
+        <div
+          class="flex lg:w-2/3 w-full  sm:flex-row flex-row mx-auto px-8 sm:px-0 items-end sm:space-x-4 sm:space-y-0 space-y-4">
+          <div class="relative sm:mb-0 flex-grow w-full px-3">
+            <input type="email" id="email" name="email"
+              class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-lime-400 focus:ring-2 focus:ring-lime-600 focus:bg-transparent text-base outline-none text-gray-100 px-3 py-1 leading-8 transition-colors duration-200 ease-in-out max-[445px]:py-0"
+              placeholder="Enter Email">
+          </div>
+          <button
+            class="max-[445px]:text-sm max-[445px]:px-4 whitespace-nowrap text-black bg-lime-400 border-0 py-2 px-8 focus:outline-none hover:bg-lime-500 rounded text-lg">Submit</button>
+        </div>
+      </div>
+    </section>
+    <hr class="opacity-20">
+
+    <!-- Footer Section -->
+    <footer class="text-gray-400 bg-dark body-font">
+      <div
+        class="container px-5 py-10 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div class="w-64 flex-shrink-0 md:mx-0 mx-auto md:text-left max-[768px]:text-center">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+            <img src="./Assets/logo.png" alt="" width="30px">
+            <span class="text-xl px-3">SalesLens</span>
+          </a>
+          <p class="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
+        </div>
+        <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-400 hover:text-white">First Link</a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">Second Link</a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">Third Link</a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-400 hover:text-white">First Link</a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">Second Link</a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">Third Link</a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-400 hover:text-white">First Link</a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">Second Link</a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">Third Link</a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-400 hover:text-white">First Link</a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">Second Link</a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">Third Link</a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <hr class="opacity-20">
+      <div class="bg-gray-800 bg-opacity-75">
+        <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+          <p class="text-gray-400 text-sm text-center sm:text-left">© SalesLens All Right Reserved 2024
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+            <a class="text-gray-400">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-400">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                viewBox="0 0 24 24">
+                <path
+                  d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                </path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-400">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-400">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                <path stroke="none"
+                  d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+
+
+    // Burger Code
+
+    let burgerIcon = document.querySelector("#hamBurger")
+    let navBar = document.getElementById("headerMobile")
+
+    burgerIcon.addEventListener("click", () => {
+      console.log("Ali")
+      headerMobile.classList.toggle("active")
+    })
+  </script>
+</body>
+
+</html>
